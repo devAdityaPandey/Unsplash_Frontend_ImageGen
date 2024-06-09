@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('benjamin-voros-phIFdC6lA4E-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    /* color: #fff; */
+}
+
+.header {
+    text-align: left;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #1ff96b;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    align-items: center;
+    height: calc(100vh - 200px);
+    padding-left: 20px;
+}
+
+.btn {
+    color: #000000;
+    background-color: #ffffff;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-right: 10px; /* Add margin between buttons */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.btn:last-child {
+    margin-right: 0; /* Remove margin from last button */
+}
+
+.btn:hover {
+    background-color: #ff0303;
+    color: #8c1f1f;
+}

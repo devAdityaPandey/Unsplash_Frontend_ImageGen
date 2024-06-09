@@ -1,0 +1,71 @@
+.header-parent-container {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px -10px; 
+    display: flex;
+    background: linear-gradient(135deg, rgb(22, 22, 22), rgb(37, 37, 37));
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    color: white;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.left a:hover {
+    background-color: rgba(255, 255, 255, 0.1);  
+    transform: scale(1.05);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right .profile-icon {
+    background: linear-gradient(135deg, #ffb100, #ff9d00);
+    color: black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.right .profile-icon:hover {
+    background: linear-gradient(135deg, #e6a800, #cc9200);
+    transform: rotate(15deg) scale(1.1);
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #e1e7ed, #cfd6e1);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+} 
+
+button:hover {
+    background: linear-gradient(135deg, #cfd6e1, #aab1bc);
+    transform: scale(1.05);
+}

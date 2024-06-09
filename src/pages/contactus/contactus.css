@@ -1,0 +1,70 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.contactus-main-container {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contactus-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 400px;
+}
+
+.contactus-input, .contactus-textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #61b8ff;
+    border-radius: 25px;
+    font-size: 1.2em;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.contactus-input:focus, .contactus-textarea:focus {
+    border-color: #61b8ff;
+}
+
+.contactus-textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contactus-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #61b8ff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+    max-width: 400px;
+}
+
+.contactus-button:hover {
+    background-color: #61b8ff;
+    transform: scale(1.05);
+}
